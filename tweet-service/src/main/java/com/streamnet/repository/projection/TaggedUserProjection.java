@@ -1,0 +1,6 @@
+package com.streamnet.repository.projection;
+
+public interface TaggedUserProjection {
+    Long getId();
+    String getFullName();
+}
